@@ -57,12 +57,5 @@ async def getVoiceLines():
     return onlyfiles
 
 
-# @bot.command()
-# async def leave(ctx):
-#     if ctx.voice_client:
-#         await ctx.guild.voice_client.disconnect()
-#     else:
-#         await ctx.send("I am not in a voice channel")
-
 
 bot.run(getenv('TOKEN'))
